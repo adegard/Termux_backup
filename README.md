@@ -64,3 +64,7 @@ while read pkg state; do if [ "$state" = install ]; then pkg install -y "$pkg"; 
   These are throwaway runtime artifacts, not real config.
 - `~/.ssh` keys and `~/.git-credentials` are NOT included by default
   for security; copy them separately if wanted.
+
+---
+
+For an overview of all my other projects, see https://adegard.github.io/blog/
